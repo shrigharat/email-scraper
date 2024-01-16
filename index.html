@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Email Scraper</h1>
+    <button id="scrapeEmails">Scrape emails</button>
+    <div id="isLoaded"></div>
+    <div id="actions">
+      <button id="sort">Sort by domain</button>
+      
+      <label for="filter">Filter by domain</label>
+      <select id="filter">
+        <option value="">Show all</option>
+        <option value="gmail.com">gmail</option>
+      </select>
+    </div>
+    <div id="results"></div>
+    <script type="module" src="/main.js"></script>
+    </div>
+  </body>
+</html>

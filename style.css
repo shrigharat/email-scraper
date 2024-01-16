@@ -1,0 +1,27 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  padding: 1rem;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#results{
+  margin-top: 10px;
+}
+.email{
+  text-align: left;
+}
+#actions{
+  margin-top: 1rem;
+}
+
+label{
+  margin-left: .5rem;
+}
